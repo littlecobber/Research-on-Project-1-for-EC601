@@ -19,8 +19,8 @@ Many dissertations show that there are a lot of traditional machine learning met
 ## Conclusion
 
 ## References
-[1]https://hermary.com/learning/3d-vision-data-look-like/?gclid=EAIaIQobChMIwonapPaK-gIVAvjICh2yxAKfEAAYAiAAEgIbOPD_BwE<br>
-[2]F. Chen, Y. Lu, B. Cai and X. Xie, "Multi-Drone Collaborative Trajectory Optimization for Large-Scale Aerial 3D Scanning," 2021 IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct), 2021, pp. 121-126, doi: 10.1109/ISMAR-Adjunct54149.2021.00034.<br>
-[3]J. -W. Han, D. -J. Synn, T. -H. Kim, H. -C. Chung and J. -K. Kim, "Feature Based Sampling: A Fast and Robust Sampling Method for Tasks Using 3D Point Cloud," in IEEE Access, vol. 10, pp. 58062-58070, 2022, doi: 10.1109/ACCESS.2022.3178519.<br>
-[4]X. Qu, J. Zhao, Y. Sun and L. Wang, "3D Reconstruction Method Based on Aerial Sequence of UAV," 2020 International Conference on Virtual Reality and Visualization (ICVRV), 2020, pp. 33-37, doi: 10.1109/ICVRV51359.2020.00017.<br>
+[1]https://hermary.com/learning/3d-vision-data-look-like/?gclid=EAIaIQobChMIwonapPaK-gIVAvjICh2yxAKfEAAYAiAAEgIbOPD_BwE<br><br>
+[2]F. Chen, Y. Lu, B. Cai and X. Xie, "Multi-Drone Collaborative Trajectory Optimization for Large-Scale Aerial 3D Scanning," 2021 IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct), 2021, pp. 121-126, doi: 10.1109/ISMAR-Adjunct54149.2021.00034.<br><br>
+[3]J. -W. Han, D. -J. Synn, T. -H. Kim, H. -C. Chung and J. -K. Kim, "Feature Based Sampling: A Fast and Robust Sampling Method for Tasks Using 3D Point Cloud," in IEEE Access, vol. 10, pp. 58062-58070, 2022, doi: 10.1109/ACCESS.2022.3178519.<br><br>
+[4]X. Qu, J. Zhao, Y. Sun and L. Wang, "3D Reconstruction Method Based on Aerial Sequence of UAV," 2020 International Conference on Virtual Reality and Visualization (ICVRV), 2020, pp. 33-37, doi: 10.1109/ICVRV51359.2020.00017.<br><br>
 [5]D. Marchisotti and E. Zappa, "Uncertainty mitigation in drone-based 3D scanning of defects in concrete structures," 2022 IEEE International Instrumentation and Measurement Technology Conference, doi: 10.1109/I2MTC48687.2022.9806652.
