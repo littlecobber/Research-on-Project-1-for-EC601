@@ -20,7 +20,6 @@ such as LIDAR are readily available to be used in many applications including au
 </div>
 
 __FIGURE 2__. Feature-based Sampling’s Process and Flow Diagram: (a) shows the sampling process of an example point cloud
-<div align = center>
 image. (b) shows the step-by-step process of the feature-based sampling module.<br>
 </div>
 
