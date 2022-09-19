@@ -13,7 +13,10 @@ When it comes to how to improve the speed and the quality of reconstruction dron
 ## Current Research
 
 Past research has illustrated that neural networks are able to used to proceed numerous 3D point clouds data to reconstruct simulated environment around us, <br>
- <img src = "https://user-images.githubusercontent.com/81452190/191117395-2752d837-0626-45cc-88e6-c9621a040288.png" width = "400px"><br>
+<div align = center>
+ <img src = "https://user-images.githubusercontent.com/81452190/191117395-2752d837-0626-45cc-88e6-c9621a040288.png" width = "600px"><br>
+</div>
+ 
 __FIGURE 2__. Feature-based Sampling’s Process and Flow Diagram: (a) shows the sampling process of an example point cloud image. (b) shows the step-by-step process of the feature-based sampling module.
 ## Current Open-Source Solutions
 
