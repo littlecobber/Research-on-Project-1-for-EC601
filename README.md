@@ -44,9 +44,9 @@ $e_{i}^{k} = MLP(p_{i}\oplus p_{i}^{k}\oplus(p_{i}-p_{i}^{k}))$
 $p_{i}$ and $p_{k}^{i}$ consist of x-y-z coordinates, and results are derived through concatenation marked as $\oplus$ . Then using a multi-layer perceptron (MLP) module, the features $e_{k}^{i}$(green in Fig. 2) are determined. This method is similar to the method used in randLA-Net. The difference is that the Query Ball Point scheme is used. The resulting features are used to calculate the score in subsection III-C.
 
 <div align = center>
-<img src = "https://user-images.githubusercontent.com/81452190/191131629-4ce6a4cd-05de-4a5b-898b-7b5390fbaff1.png" width = "300px"><img src = "https://user-images.githubusercontent.com/81452190/191131684-bbe41692-607f-4005-adb0-5ba2d9f575a7.png" width = "300px">
+<img src = "https://user-images.githubusercontent.com/81452190/191131629-4ce6a4cd-05de-4a5b-898b-7b5390fbaff1.png" width = "250px"><img src = "https://user-images.githubusercontent.com/81452190/191131684-bbe41692-607f-4005-adb0-5ba2d9f575a7.png" width = "250px">
 </div>
-
+<br>
 ## Current Open-Source Solutions
 
 
