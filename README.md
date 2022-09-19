@@ -109,6 +109,11 @@ about 21%.
 
 ## Conclusion
 
+the Feature-based Sampling (FBS), a sampling method using the importance sampling idea. FBS is a fast and robust sampling method that uses Positional Encoding and Attention Scoring. Results show that FBS significantly reduces the training time and inference time compared to the PointASNL and PointNet++ methods while achieving comparable accuracy for the classification
+task (minimal increase) and part segmentation task (slight decrease). Outlier removal experiment shows that FBS is
+better suited to discard outliers (i.e., noise in images) than the Furthest Point Sampling method that is used by PointNet++
+and PointASNL. The next step is to apply our sampling method to various other tasks.
+
 ## References
 [1]https://hermary.com/learning/3d-vision-data-look-like/?gclid=EAIaIQobChMIwonapPaK-gIVAvjICh2yxAKfEAAYAiAAEgIbOPD_BwE<br><br>
 [2]F. Chen, Y. Lu, B. Cai and X. Xie, "Multi-Drone Collaborative Trajectory Optimization for Large-Scale Aerial 3D Scanning," 2021 IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct), 2021, pp. 121-126, doi: 10.1109/ISMAR-Adjunct54149.2021.00034.<br><br>
