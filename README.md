@@ -25,11 +25,11 @@ __FIGURE 2__. Feature-based Sampling’s Process and Flow Diagram: (a) shows the
 For each i-th point, K neighborhood points are determined. The proposed method utilizes the query ball scheme where
 it only collects information from neighbors that are only a certain distance away (inside a certain radius).<br>
 
-
+<div align = center>
 $index_{i} = Q(p_{i},K,P)$
 $index_{i}(P) = {p_{i}^{1}\cdots p_{i}^{1}\cdots p_{i}^{k}} $
 $index_{i}(K) = {f_{i}^{1}\cdots f_{i}^{1}\cdots f_{i}^{k}} $
-
+</div>
 
 The Q is the Query ball point algorithm, P is the x-y-z coordinates of the points, and F is the feature of the points.
 $index_{i}$ is the index set for the i-th point detemined using the query ball point scheme. $p_{i}$ denotes the center point (centroid)in P. For each centroid $p_{i}$ (dashed line in Fig. 2), the indexi is applied to P and F. The points surrounding the centroid $p_{K}^{i}$(yellow-green (N, k) in Fig. 2), and the features corresponding to the surrounding points are expressed as $f_{i}^{K}$ (orange(N, k) in Fig.2).
