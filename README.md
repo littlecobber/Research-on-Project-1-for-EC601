@@ -105,9 +105,9 @@ about 21%.
 
 ## Current Open-Source Solutions
 
-* The 
-* you know 
-* yes
+* Github
+* The link in original paper index or appendix 
+* kaggle website
 <div align = center>
 <img src = "https://user-images.githubusercontent.com/81452190/191134111-2989501e-ba00-406f-a60e-b144ffee9b2d.png" width = "600px">
 </div>
