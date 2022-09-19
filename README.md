@@ -33,6 +33,7 @@ $index_{i}(K) = {f_{i}^{1}\cdots f_{i}^{1}\cdots f_{i}^{k}} $
 <br>
 The Q is the Query ball point algorithm, P is the x-y-z coordinates of the points, and F is the feature of the points.
 $index_{i}$ is the index set for the i-th point detemined using the query ball point scheme. $p_{i}$ denotes the center point (centroid)in P. For each centroid $p_{i}$ (dashed line in Fig. 2), the indexi is applied to P and F. The points surrounding the centroid $p_{K}^{i}$(yellow-green (N, k) in Fig. 2), and the features corresponding to the surrounding points are expressed as $f_{i}^{K}$ (orange(N, k) in Fig.2).
+
 ### FEATURE EXTRACTION
 For each centroid $p_{i}$ (yellow (1, 3) in Fig. 2), geometric information is extracted using the set of K points close to the centroid $p_{i}^{1}\cdots p_{i}^{1}\cdots p_{i}^{K}$ .<br>
 <br>
@@ -42,8 +43,12 @@ $e_{i}^{k} = MLP(p_{i}\oplus p_{i}^{k}\oplus(p_{i}-p_{i}^{k}))$
 <br>
 $p_{i}$ and $p_{k}^{i}$ consist of x-y-z coordinates, and results are derived through concatenation marked as $\oplus$ . Then using a multi-layer perceptron (MLP) module, the features $e_{k}^{i}$(green in Fig. 2) are determined. This method is similar to the method used in randLA-Net. The difference is that the Query Ball Point scheme is used. The resulting features are used to calculate the score in subsection III-C.
 
+<div align = center>
+<img src = "https://user-images.githubusercontent.com/81452190/191131629-4ce6a4cd-05de-4a5b-898b-7b5390fbaff1.png" width = "300px"><img src = "https://user-images.githubusercontent.com/81452190/191131684-bbe41692-607f-4005-adb0-5ba2d9f575a7.png" width = "300px">
+</div>
 
 ## Current Open-Source Solutions
+
 
 
 ## Conclusion
