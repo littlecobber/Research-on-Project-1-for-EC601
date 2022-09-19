@@ -36,6 +36,10 @@ For each centroid $p_{i}$ (yellow (1, 3) in Fig. 2), geometric information is ex
 <div align = center>
 $e_{i}^{k} = MLP(p_{i}\oplus p_{i}^{k}\oplus(p_{i}-p_{i}^{k}))$
 </div>
+
+$p_{i}$ and $p_{k}^{i}$ consist of x-y-z coordinates, and results are derived through concatenation marked as$\oplus$. Then using a multi-layer perceptron (MLP) module, the features $e_{k}^{i}$(green in Fig. 2) are determined. This method is similar to the method used in randLA-Net. The difference is that the Query Ball Point scheme is used. The resulting features are used to calculate the score in subsection III-C.
+
+
 ## Current Open-Source Solutions
 
 
