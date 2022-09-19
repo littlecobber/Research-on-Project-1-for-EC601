@@ -15,10 +15,10 @@ When it comes to how to improve the speed and the quality of reconstruction dron
 Past research has illustrated that neural networks are able to used to proceed numerous 3D point clouds data to reconstruct simulated environment around us,Point cloud data sets are frequently used in machines to sense the real world because sensors
 such as LIDAR are readily available to be used in many applications including autonomous cars and drones. PointNet and PointNet++ are widely used point-wise embedding methods for interpreting Point clouds. However, even for recent models based on PointNet, real-time inference is still challenging. The solution to a faster inference is sampling, where, sampling is a method to reduce the number of points that is computed in the next module. Furthest Point Sampling (FPS) is widely used, but disadvantage is that it is slow and it is difficult to select critical points. In this paper, we introduce Feature-Based Sampling (FBS), a novel sampling method that applies the attention technique. The results show a significant speedup of the training time and inference time while the accuracy is similar to previous methods. Further experiments demonstrate that the proposed method is better suited to preserve critical points or discard unimportant points. <br>
 <div align = center>
- <img src = "https://user-images.githubusercontent.com/81452190/191117395-2752d837-0626-45cc-88e6-c9621a040288.png" width = "600px"><br>
+<img src = "https://user-images.githubusercontent.com/81452190/191117395-2752d837-0626-45cc-88e6-c9621a040288.png" width = "600px"><br>
 </div>
 __FIGURE 2__. Feature-based Sampling’s Process and Flow Diagram: (a) shows the sampling process of an example point cloud image. (b) shows the step-by-step process of the feature-based sampling module.<br>
-## GROUPING NEIGHBOUR POINTS<br>
+### GROUPING NEIGHBOUR POINTS<br>
 For each i-th point, K neighborhood points are determined. The proposed method utilizes the query ball scheme where
 it only collects information from neighbors that are only a certain distance away (inside a certain radius).<br>
 <div align = center>
@@ -26,9 +26,9 @@ index_{i} = Q(p_{i},K,P) <br>
 index_{i}(P) = {p_{i}^{1}\cdots p_{i}^{1}\cdots p_{i}^{k}} <br>
 index_{i}(K) = {f_{i}^{1}\cdots f_{i}^{1}\cdots f_{i}^{k}} 
 </div>
-## FEATURE EXTRACTION
+### FEATURE EXTRACTION
 
-## Current Open-Source Solutions
+### Current Open-Source Solutions
 
 
 ## Conclusion
