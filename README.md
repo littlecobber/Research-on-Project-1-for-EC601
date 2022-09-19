@@ -24,7 +24,11 @@ FIGURE 2. Feature-based Sampling’s Process and Flow Diagram: (a) shows the sam
 For each i-th point, K neighborhood points are determined. The proposed method utilizes the query ball scheme where
 it only collects information from neighbors that are only a certain distance away (inside a certain radius).<br>
 
+<div align = center>
+<img src = "https://user-images.githubusercontent.com/81452190/191129033-764db232-99ba-4dcc-982e-1a5570c5bd25.png" width = "400px"><br>
+</div>
 ### FEATURE EXTRACTION
+
 
 ## Current Open-Source Solutions
 
