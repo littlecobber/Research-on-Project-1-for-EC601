@@ -72,7 +72,7 @@ shown. SO-Net is inserted into Table 1 to be a reference of
 the accuracy performance. SO-Net uses a lot more points to
 solve the classification problem and therefore it is difficult
 to compare directly. However, as shown in the table, the
-accuracy performance is comparable.<be>
+accuracy performance is comparable.<br>
 Train and Inference Time is determined for different
 number of input points (e.g., 512, 1024, and 2048). This
 experiment is aimed to compare the performance when the
