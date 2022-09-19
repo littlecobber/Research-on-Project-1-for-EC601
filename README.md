@@ -17,8 +17,17 @@ such as LIDAR are readily available to be used in many applications including au
 <div align = center>
  <img src = "https://user-images.githubusercontent.com/81452190/191117395-2752d837-0626-45cc-88e6-c9621a040288.png" width = "600px"><br>
 </div>
- 
-__FIGURE 2__. Feature-based Sampling’s Process and Flow Diagram: (a) shows the sampling process of an example point cloud image. (b) shows the step-by-step process of the feature-based sampling module.
+__FIGURE 2__. Feature-based Sampling’s Process and Flow Diagram: (a) shows the sampling process of an example point cloud image. (b) shows the step-by-step process of the feature-based sampling module.<br>
+### 1）GROUPING NEIGHBOUR POINTS
+For each i-th point, K neighborhood points are determined. The proposed method utilizes the query ball scheme where
+it only collects information from neighbors that are only a certain distance away (inside a certain radius).<br>
+<div align = center>
+index_{i} = Q(p_{i},K,P) <br>
+index_{i}(P) = {p_{i}^{1}\cdots p_{i}^{1}\cdots p_{i}^{k}} <br>
+index_{i}(K) = {f_{i}^{1}\cdots f_{i}^{1}\cdots f_{i}^{k}} 
+</div>
+### 2）FEATURE EXTRACTION
+
 ## Current Open-Source Solutions
 
 
