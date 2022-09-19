@@ -72,7 +72,7 @@ shown. SO-Net is inserted into Table 1 to be a reference of
 the accuracy performance. SO-Net uses a lot more points to
 solve the classification problem and therefore it is difficult
 to compare directly. However, as shown in the table, the
-accuracy performance is comparable.
+accuracy performance is comparable.<be>
 Train and Inference Time is determined for different
 number of input points (e.g., 512, 1024, and 2048). This
 experiment is aimed to compare the performance when the
@@ -83,7 +83,7 @@ Python Time package was used to profile the computational
 time. While training time was determined per batch, inference
 time was measured in terms of the end-to-end time of the
 method. The three methods are run 100 times and the average
-time was used for comparison.
+time was used for comparison.<br>
 When compared to PointNet++, the proposed method
 completed the task faster for 512, 1024, and 2048 input data
 points as shown in Table 3. For both 512 and 1024 points,
@@ -93,7 +93,14 @@ time consuming part is the sampling process and the proposed
 method in this paper effectively reduces the time to sample
 while also determining the points that are important. Furthest
 Point Sampling idea, which is used by previous research,
-approximates the importance of points using the distance
+approximates the importance of points using the distance and thus it is not a sampling method that requires learning.
+On the other hand, FBS has learning parameters because it
+proceeds in the form of calculating and learning the relationship between points. Even though FBS has more learning
+parameters than FPS, our method is still faster because of
+the reason discussed in Section III. The inference speed is
+about three times faster for 512 and 1024 points cases. For
+the 2048 points case, the inference time was reduced by
+about 21%.
 
 
 ## Current Open-Source Solutions
