@@ -26,9 +26,9 @@ For each i-th point, K neighborhood points are determined. The proposed method u
 it only collects information from neighbors that are only a certain distance away (inside a certain radius).<br>
 
 
-$$index_{i} = Q(p_{i},K,P)$$
-$$index_{i}(P) = {p_{i}^{1}\cdots p_{i}^{1}\cdots p_{i}^{k}} $$
-$$index_{i}(K) = {f_{i}^{1}\cdots f_{i}^{1}\cdots f_{i}^{k}} $$
+$index_{i} = Q(p_{i},K,P)$
+$index_{i}(P) = {p_{i}^{1}\cdots p_{i}^{1}\cdots p_{i}^{k}} $
+$index_{i}(K) = {f_{i}^{1}\cdots f_{i}^{1}\cdots f_{i}^{k}} $
 
 
 The Q is the Query ball point algorithm, P is the x-y-z coordinates of the points, and F is the feature of the points.
