@@ -27,6 +27,9 @@ it only collects information from neighbors that are only a certain distance awa
 <div align = center>
 <img src = "https://user-images.githubusercontent.com/81452190/191129033-764db232-99ba-4dcc-982e-1a5570c5bd25.png" width = "300px"><br>
 </div>
+
+The Q is the Query ball point algorithm, P is the x-y-z coordinates of the points, and F is the feature of the points.
+$index_{i}$ is the index set for the i-th point detemined using the query ball point scheme. $p_{i}$ denotes the center point (centroid)in P. For each centroid pi (dashed line in Fig. 2), the indexi is applied to P and F. The points surrounding the centroid $p_{K}^{i}$(yellow-green (N, k) in Fig. 2), and the features corresponding to the surrounding points are expressed as fiK (orange(N, k) in Fig.2).
 ### FEATURE EXTRACTION
 
 
