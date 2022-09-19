@@ -47,6 +47,10 @@ $p_{i}$ and $p_{k}^{i}$ consist of x-y-z coordinates, and results are derived th
 <img src = "https://user-images.githubusercontent.com/81452190/191131629-4ce6a4cd-05de-4a5b-898b-7b5390fbaff1.png" width = "250px"><img src = "https://user-images.githubusercontent.com/81452190/191131684-bbe41692-607f-4005-adb0-5ba2d9f575a7.png" width = "250px">
 </div>
 <br>
+
+__FIGURE 3__. Experimental results of training and inference times according to the number of points in ModelNet40.
+
+
 ## Current Open-Source Solutions
 
 
