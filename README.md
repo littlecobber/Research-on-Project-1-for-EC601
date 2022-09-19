@@ -57,6 +57,16 @@ __FIGURE 3__. Experimental results of training and inference times according to 
 
 </div>
 
+<div align = center>
+  
+__TABLE 1__. Overall accuracy results of the classification task using the ModelNet40 dataset, where ‘‘pnt’’ stands for coordinate of points, ‘‘nor’’ stands for feature of points. #points stands for input number of points. Result of 93.0 is the rounded up value of 92.96.
+  
+<img src = "https://user-images.githubusercontent.com/81452190/191132537-c0ab279b-a479-4c26-932b-6db52b9dad43.png" width = "300px">
+  
+</div>
+
+
+
 ## Current Open-Source Solutions
 
 
