@@ -19,7 +19,11 @@ such as LIDAR are readily available to be used in many applications including au
 <img src = "https://user-images.githubusercontent.com/81452190/191117395-2752d837-0626-45cc-88e6-c9621a040288.png" width = "600px"><br>
 </div>
 
-__FIGURE 2__. Feature-based Sampling’s Process and Flow Diagram: (a) shows the sampling process of an example point cloud image. (b) shows the step-by-step process of the feature-based sampling module.<br>
+__FIGURE 2__. Feature-based Sampling’s Process and Flow Diagram: (a) shows the sampling process of an example point cloud
+
+<div align = center>
+image. (b) shows the step-by-step process of the feature-based sampling module.<br>
+</div>
 
 ### GROUPING NEIGHBOUR POINTS
 For each i-th point, K neighborhood points are determined. The proposed method utilizes the query ball scheme where
@@ -48,8 +52,9 @@ $p_{i}$ and $p_{k}^{i}$ consist of x-y-z coordinates, and results are derived th
 </div>
 <br>
 
+<div align = center>
 __FIGURE 3__. Experimental results of training and inference times according to the number of points in ModelNet40.
-
+</div>
 
 ## Current Open-Source Solutions
 
