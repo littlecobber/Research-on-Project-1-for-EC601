@@ -1,6 +1,6 @@
 # Project 1 Report
 
-# Drone Image reconstruction 3D point clouds
+# New method combined with DeepLearning to improve performance of Drone Image reconstruction on 3D point clouds
 Yifan Wu
 
 ## Problem Statement/Applications
