@@ -26,8 +26,8 @@ For each i-th point, K neighborhood points are determined. The proposed method u
 it only collects information from neighbors that are only a certain distance away (inside a certain radius).<br>
 
 <div align = center>
-$index_{i} = Q(p_{i},K,P)$
-$index_{i}(P) = {p_{i}^{1}\cdots p_{i}^{1}\cdots p_{i}^{k}} $
+$index_{i} = Q(p_{i},K,P)$<br>
+$index_{i}(P) = {p_{i}^{1}\cdots p_{i}^{1}\cdots p_{i}^{k}} $<br>
 $index_{i}(K) = {f_{i}^{1}\cdots f_{i}^{1}\cdots f_{i}^{k}} $
 </div>
 
