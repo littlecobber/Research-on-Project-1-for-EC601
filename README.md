@@ -32,7 +32,7 @@ it only collects information from neighbors that are only a certain distance awa
 The Q is the Query ball point algorithm, P is the x-y-z coordinates of the points, and F is the feature of the points.
 $index_{i}$ is the index set for the i-th point detemined using the query ball point scheme. $p_{i}$ denotes the center point (centroid)in P. For each centroid $p_{i}$ (dashed line in Fig. 2), the indexi is applied to P and F. The points surrounding the centroid $p_{K}^{i}$(yellow-green (N, k) in Fig. 2), and the features corresponding to the surrounding points are expressed as $f_{i}^{K}$ (orange(N, k) in Fig.2).
 ### FEATURE EXTRACTION
-For each centroid $p_{i}$ (yellow (1, 3) in Fig. 2), geometric information is extracted using the set of K points close to the centroid{$p_{i}^{1}\cdots p_{i}^{1}\cdots p_{i}^{K}$}.<br>
+For each centroid $p_{i}$ (yellow (1, 3) in Fig. 2), geometric information is extracted using the set of K points close to the centroid $p_{i}^{1}\cdots p_{i}^{1}\cdots p_{i}^{K}$ .<br>
 <div align = center>
 $e_{i}^{k} = MLP(p_{i}\oplus p_{i}^{k}\oplus(p_{i}-p_{i}^{k}))$
 </div>
