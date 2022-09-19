@@ -25,7 +25,7 @@ For each i-th point, K neighborhood points are determined. The proposed method u
 it only collects information from neighbors that are only a certain distance away (inside a certain radius).<br>
 
 <div align = center>
-<img src = "https://user-images.githubusercontent.com/81452190/191129033-764db232-99ba-4dcc-982e-1a5570c5bd25.png" width = "400px"><br>
+<img src = "https://user-images.githubusercontent.com/81452190/191129033-764db232-99ba-4dcc-982e-1a5570c5bd25.png" width = "350px"><br>
 </div>
 ### FEATURE EXTRACTION
 
