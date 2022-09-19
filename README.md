@@ -105,12 +105,11 @@ about 21%.
 
 ## Current Open-Source Solutions
 
-1. The 
-2. you know 
-3. yes
-
+* The 
+* you know 
+* yes
 <div align = center>
-<img src = "https://user-images.githubusercontent.com/81452190/191134111-2989501e-ba00-406f-a60e-b144ffee9b2d.png" width = "400px">
+<img src = "https://user-images.githubusercontent.com/81452190/191134111-2989501e-ba00-406f-a60e-b144ffee9b2d.png" width = "600px">
 </div>
 
 ## Conclusion
